@@ -1,0 +1,21 @@
+id,ward,channel,complaint_text,expected_category,expected_priority
+1,W-01,web,Two men with weapons are threatening vendors near bus stand,Emergency,High
+2,W-02,mobile,Street fight escalated and people are panicking,Emergency,High
+3,W-03,voice,Garbage pile has blocked drainage causing bad smell,Municipal,Normal
+4,W-04,web,Major pothole has caused repeated bike slips,Municipal,Normal
+5,W-05,mobile,Fire spotted in abandoned shed behind market,Emergency,High
+6,W-06,voice,Streetlights are off in three lanes since last night,Municipal,Normal
+7,W-07,web,Illegal dumping of waste near school gate,Municipal,Normal
+8,W-08,mobile,Possible robbery attempt reported outside ATM,Emergency,High
+9,W-09,voice,Sewage overflow entering homes after rainfall,Municipal,Medium
+10,W-10,web,Violent assault reported near community center,Emergency,High
+11,W-11,mobile,Mosquito breeding due to stagnant drain water,Municipal,Normal
+12,W-12,voice,Loud explosion-like sound and smoke seen near depot,Emergency,High
+13,W-03,web,Waterlogging and blocked storm drain at junction,Municipal,Normal
+14,W-04,mobile,Public park littered with biomedical waste,Municipal,Normal
+15,W-05,voice,Group carrying knives threatening residents,Emergency,High
+16,W-06,web,Open manhole and broken road edge unsafe for children,Municipal,Normal
+17,W-07,mobile,Help urgently needed there is an attack in alley,Emergency,High
+18,W-08,voice,Overflowing garbage bins attracting stray animals,Municipal,Normal
+19,W-09,web,Suspicious unattended package near metro entry,Emergency,High
+20,W-10,mobile,Drainage backflow and severe foul smell in block C,Municipal,Medium
