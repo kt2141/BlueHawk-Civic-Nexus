@@ -1,9 +1,11 @@
 from dataclasses import dataclass
+import re
 from typing import Dict
 
 EMERGENCY_KEYWORDS = {
     "gun", "weapon", "fight", "attack", "robbery", "theft", "molestation",
-    "fire", "explosion", "bomb", "assault", "violence", "panic", "crime"
+    "fire", "explosion", "bomb", "assault", "violence", "panic", "crime",
+    "threat", "threatening", "knife", "knives", "weapons", "suspicious", "package"
 }
 
 MUNICIPAL_KEYWORDS = {
@@ -26,7 +28,7 @@ class RoutingDecision:
 
 def route_complaint(text: str) -> RoutingDecision:
     clean = " ".join(text.lower().split())
-    tokens = set(clean.replace(".", " ").replace(",", " ").split())
+    tokens = set(re.findall(r"[a-z]+", clean))
 
     emergency_hits = tokens.intersection(EMERGENCY_KEYWORDS)
     municipal_hits = tokens.intersection(MUNICIPAL_KEYWORDS)
