@@ -2,6 +2,7 @@
 **An Autonomous Edge-AI Street Patrol Rover (H.A.W.K.) & GIS Urban Governance Grid (BlueBridge) for Proactive Emergency Threat Alerting and Sustainable Municipal Action**
 
 *Submitted to **Hack for Social Cause (HSC) — Viksit Bharat Young Leaders Dialogue (VBYLD) 2027** | Ministry of Youth Affairs & Sports (MoYAS), Govt. of India & IIT Bombay*
+> **Author:** [Aravind K. T. (Aravind Koolagurki Thimmarayappa) — Official Digital Portfolio & Command Center](https://kt2141.github.io/)
 
 🔗 **Innovator Digital Portfolio & Live Project Hub:** [https://sites.google.com/view/aravind-k-t-iitk/](https://sites.google.com/view/aravind-k-t-iitk/)
 
