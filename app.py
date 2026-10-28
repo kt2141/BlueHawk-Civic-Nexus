@@ -23,9 +23,9 @@ from PIL import Image, ImageDraw, ImageFilter, ImageFont
 # ----------------------------------------------------------------------------
 # CONFIG
 # ----------------------------------------------------------------------------
-PORTFOLIO_URL = "https://sites.google.com/view/aravind-k-t-iitk/"
+PORTFOLIO_URL = "https://kt2141.github.io/"
 GITHUB_URL = "https://github.com/"          # TODO: replace with your repository URL
-DOCS_URL = "https://sites.google.com/view/aravind-k-t-iitk/"  # TODO: replace with live docs URL
+DOCS_URL = "https://kt2141.github.io/"  # TODO: replace with live docs URL
 
 DECK_FILE = "BlueHawk_-main_ppt.docx"
 COMPENDIUM_FILE = "BlueHawk_Civic_Nexus_Design_Compendium.docx"
